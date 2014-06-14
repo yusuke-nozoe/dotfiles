@@ -28,7 +28,7 @@
   diff = diff-highlight | less
 [alias]
   s   = status
-  st  = status
+	st = status
   ss  = status -s
   sh  = show
   so  = remote show origin
@@ -61,13 +61,13 @@
   c   = commit
   ci  = commit -a           # modifiedなファイルを全てstageへ
   cam = commit -a --amend   # 直前のcommitを修正
-  co  = checkout
+	co = checkout
   cb  = checkout -b         # branch切ってcheckoutする
   ct  = checkout --track    # remoteのbranchを追跡
-  cm  = checkout master
+	cm = commit
   cd  = checkout develop
   # branch関連
-  br  = branch
+	br = branch
   ba  = branch -a           # originも含めた全てのbranchを表示
   bm  = branch --merged     # merge済みのbranchを表示
   bn  = branch --no-merged  # mergeしてないbranchを表示

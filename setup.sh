@@ -4,6 +4,10 @@ DOT_FILES=( .zsh .zshrc .zshrc.custom .zshrc.alias .zshrc.linux .zshrc.osx .ctag
 
 for file in ${DOT_FILES[@]}
 do
+    if [ -e $HOME/$file ]; then
+        rm -rdf $HOME/$file
+        echo "$file を削除しました。"
+    fi
     ln -s $HOME/dotfiles/$file $HOME/$file
 done
 

@@ -311,19 +311,19 @@ endif
   NeoBundle 'yuroyoro/yuroyoro256.vim'
 " }}}
 
-"" Unite {{{{
-"  " unite.vim : - すべてを破壊し、すべてを繋げ - vim scriptで実装されたanythingプラグイン
-"  NeoBundle 'Shougo/unite.vim'
-"  NeoBundle 'tsukkee/unite-help'
-"  NeoBundle 'h1mesuke/unite-outline'
-"  " NeoBundle 'Sixeight/unite-grep'
-"  NeoBundle 'basyura/unite-rails'
-"  NeoBundle 'thinca/vim-unite-history'
-"  NeoBundle 'tsukkee/unite-tag'
-"  NeoBundle 'choplin/unite-vim_hacks'
+" Unite {{{{
+  " unite.vim : - すべてを破壊し、すべてを繋げ - vim scriptで実装されたanythingプラグイン
+  NeoBundle 'Shougo/unite.vim'
+  NeoBundle 'tsukkee/unite-help'
+  NeoBundle 'h1mesuke/unite-outline'
+  " NeoBundle 'Sixeight/unite-grep'
+  NeoBundle 'basyura/unite-rails'
+  NeoBundle 'thinca/vim-unite-history'
+  NeoBundle 'tsukkee/unite-tag'
+  NeoBundle 'choplin/unite-vim_hacks'
+
+" }}}
 "
-"" }}}
-""
-"" NeoBundle 'gmarik/vundle'
-"
-"filetype plugin indent on
+" NeoBundle 'gmarik/vundle'
+
+filetype plugin indent on

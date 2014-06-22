@@ -302,15 +302,15 @@ endif
 "  NeoBundle 'motemen/git-vim'
 "
 "" }}}
-"
-"" ColorSchema{{{{
-"  " color schema 256
-"  NeoBundle 'desert256.vim'
-"  NeoBundle 'mrkn256.vim'
-"  NeoBundle 'tomasr/molokai'
-"  NeoBundle 'yuroyoro/yuroyoro256.vim'
-"" }}}
-"
+
+" ColorSchema{{{{
+  " color schema 256
+  NeoBundle 'desert256.vim'
+  NeoBundle 'mrkn256.vim'
+  NeoBundle 'tomasr/molokai'
+  NeoBundle 'yuroyoro/yuroyoro256.vim'
+" }}}
+
 "" Unite {{{{
 "  " unite.vim : - すべてを破壊し、すべてを繋げ - vim scriptで実装されたanythingプラグイン
 "  NeoBundle 'Shougo/unite.vim'

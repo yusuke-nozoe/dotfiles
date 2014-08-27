@@ -19,9 +19,9 @@
   tool = vimdiff
   ff = false
 [branch]
-  autosetuprebase = always
+	autosetuprebase = always
 [pull]
-	#rebase = true
+	rebase = true
 [pager]
   log = diff-highlight | less
   show = diff-highlight | less

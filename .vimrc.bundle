@@ -188,20 +188,20 @@ endif
 "  " haml
 "  NeoBundle 'haml.zip'
 "
-"  " JavaScript
-"  NeoBundle 'JavaScript-syntax'
+" JavaScript
+NeoBundle 'JavaScript-syntax'
 "
-"  " jQuery
-"  NeoBundle 'jQuery'
+" jQuery
+NeoBundle 'jQuery'
 "
-"  " nginx conf
-"  NeoBundle 'nginx.vim'
+" nginx conf
+NeoBundle 'nginx.vim'
 "
 "  " markdown
 "  NeoBundle 'tpope/vim-markdown'
 "
-"  " coffee script
-"  NeoBundle 'kchmck/vim-coffee-script'
+" coffee script
+NeoBundle 'kchmck/vim-coffee-script'
 "
 "  " python
 "  NeoBundle 'yuroyoro/vim-python'

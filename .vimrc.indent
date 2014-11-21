@@ -46,6 +46,7 @@ if has("autocmd")
   autocmd FileType scala      setlocal sw=2 sts=2 ts=2 et
   autocmd FileType go         setlocal noexpandtab list tabstop=2 shiftwidth=2
   autocmd BufNewFile,BufRead Gemfile set filetype=ruby
+  autocmd BufNewFile,BufRead *.json.jbuilder set ft=ruby
 endif
 
 " Perltidy

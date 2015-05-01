@@ -92,31 +92,32 @@ endif
 "  NeoBundle 'taku-o/vim-toggle'
 "
 "" }}}
-"
-"" Completion {{{
-"  " 補完 autocomplpop.vim : insertmodeで自動で補完をpopup
-"  " NeoBundle 'AutoComplPop'
-"
-"  " 補完 neocomplcache.vim : 究極のVim的補完環境
-"  NeoBundle 'Shougo/neocomplcache'
-"
-"  " neocomplcacheのsinpet補完
-"  NeoBundle 'Shougo/neosnippet.git'
-"
-"  " various langueages snippets
-"  NeoBundle 'honza/vim-snippets'
-"
+
+" Completion {{{
+  " 補完 autocomplpop.vim : insertmodeで自動で補完をpopup
+  " NeoBundle 'AutoComplPop'
+
+  " 補完 neocomplcache.vim : 究極のVim的補完環境
+  NeoBundle 'Shougo/neocomplcache'
+
+  " neocomplcacheのsinpet補完
+  NeoBundle 'Shougo/neosnippet.git'
+  NeoBundle "Shougo/neosnippet-snippets"
+
+  " various langueages snippets
+  NeoBundle 'honza/vim-snippets'
+
 "  " for rsense
 "  NeoBundle 'm2ym/rsense'
 "  NeoBundle 'taichouchou2/vim-rsense'
-"
-"  " rubyでrequire先を補完する
-"  " NeoBundle 'ujihisa/neco-ruby'
-"
-"  " A neocomplcache plugin for English, using look command
-"  " NeoBundle 'ujihisa/neco-look'
-"" }}}
-"
+
+  " rubyでrequire先を補完する
+  NeoBundle 'ujihisa/neco-ruby'
+
+  " A neocomplcache plugin for English, using look command
+  NeoBundle 'ujihisa/neco-look'
+" }}}
+
 "" Searching/Moving{{{
 "  " smooth_scroll.vim : スクロールを賢く
 "  " NeoBundle 'Smooth-Scroll'
@@ -187,6 +188,8 @@ NeoBundle 'tpope/vim-rails'
 "" Syntax {{{
 "  " haml
 "  NeoBundle 'haml.zip'
+"  Jade
+NeoBundle 'digitaltoad/vim-jade.git'
 "
 " JavaScript
 NeoBundle 'JavaScript-syntax'
@@ -202,7 +205,10 @@ NeoBundle 'nginx.vim'
 "
 " coffee script
 NeoBundle 'kchmck/vim-coffee-script'
-"
+" TypeScript
+NeoBundle 'leafgarland/typescript-vim'
+" Golang
+NeoBundle 'fatih/vim-go'
 "  " python
 "  NeoBundle 'yuroyoro/vim-python'
 "
@@ -227,7 +233,7 @@ NeoBundle 'kchmck/vim-coffee-script'
 "  NeoBundle 'minibufexpl.vim'
 "
 "  " NERDTree : ツリー型エクスプローラ
-"  NeoBundle 'The-NERD-tree'
+NeoBundle 'The-NERD-tree'
 "
 "  " vtreeexplorer.vim : ツリー状にファイルやディレクトリの一覧を表示
 "  NeoBundle 'vtreeexplorer'
@@ -325,5 +331,8 @@ NeoBundle 'kchmck/vim-coffee-script'
 " }}}
 "
 " NeoBundle 'gmarik/vundle'
+
+NeoBundle 'thoughtbot/vim-rspec'
+
 
 filetype plugin indent on

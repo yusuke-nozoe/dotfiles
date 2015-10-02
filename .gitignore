@@ -6,8 +6,8 @@
 *~
 .DS_Store
 *.sw[po]
-tags
-TAGS
+#tags
+#TAGS
 Session.vim
 .svn
 *.dSYM
@@ -21,4 +21,3 @@ samples
 .vim/bundle/
 .vim/.netrwhist
 .vimrc_sample
-

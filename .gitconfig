@@ -178,3 +178,5 @@
 [ruby]
 	gemfile = /home/ozaki/dev/asp_weborder/Gemfile
   version = 2.1.1
+[push]
+	default = matching
